@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>openPatientMenu</class>
+ <widget class="QMainWindow" name="openPatientMenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1954</width>
+    <height>878</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>11</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(110, 204, 175);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1934</width>
+         <height>776</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>1934</width>
+         <height>776</height>
+        </size>
+       </property>
+       <widget class="QLabel" name="patient_appointment_history_label">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>341</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(52, 77, 103);
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Patient Appointment History</string>
+        </property>
+       </widget>
+       <widget class="QFrame" name="frame_4">
+        <property name="geometry">
+         <rect>
+          <x>290</x>
+          <y>40</y>
+          <width>120</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(243, 236, 176);</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="select_appointment_pushButton">
+        <property name="geometry">
+         <rect>
+          <x>750</x>
+          <y>640</y>
+          <width>221</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(249, 249, 249);</string>
+        </property>
+        <property name="text">
+         <string>Select Appointment</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="create_new_appointment_pushButton">
+        <property name="geometry">
+         <rect>
+          <x>980</x>
+          <y>640</y>
+          <width>221</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(249, 249, 249);</string>
+        </property>
+        <property name="text">
+         <string>Create New Appointment</string>
+        </property>
+       </widget>
+       <widget class="QFrame" name="frame">
+        <property name="geometry">
+         <rect>
+          <x>400</x>
+          <y>60</y>
+          <width>1151</width>
+          <height>641</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(52, 77, 103);</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QListWidget" name="appointment_history_listView">
+         <property name="geometry">
+          <rect>
+           <x>70</x>
+           <y>40</y>
+           <width>1011</width>
+           <height>511</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(249, 249, 249);
+color: rgb(0, 0, 0);</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QFrame" name="frame_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>381</width>
+          <height>101</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(52, 77, 103);</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+       </widget>
+       <widget class="QFrame" name="frame_3">
+        <property name="geometry">
+         <rect>
+          <x>440</x>
+          <y>110</y>
+          <width>1161</width>
+          <height>631</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(173, 231, 146);</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+       </widget>
+       <zorder>frame_4</zorder>
+       <zorder>frame_3</zorder>
+       <zorder>frame</zorder>
+       <zorder>frame_2</zorder>
+       <zorder>patient_appointment_history_label</zorder>
+       <zorder>select_appointment_pushButton</zorder>
+       <zorder>create_new_appointment_pushButton</zorder>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1954</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionhome"/>
+   <addaction name="actionnewPatient"/>
+   <addaction name="actionpatientSearch"/>
+   <addaction name="actionlogout"/>
+  </widget>
+  <action name="actionhome">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/Images/Images/home.png</normaloff>:/Images/Images/home.png</iconset>
+   </property>
+   <property name="text">
+    <string>home</string>
+   </property>
+  </action>
+  <action name="actionnewPatient">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/Images/Images/plus-button.png</normaloff>:/Images/Images/plus-button.png</iconset>
+   </property>
+   <property name="text">
+    <string>newPatient</string>
+   </property>
+  </action>
+  <action name="actionpatientSearch">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/Images/Images/magnifier.png</normaloff>:/Images/Images/magnifier.png</iconset>
+   </property>
+   <property name="text">
+    <string>patientSearch</string>
+   </property>
+  </action>
+  <action name="actionlogout">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/Images/Images/door--arrow.png</normaloff>:/Images/Images/door--arrow.png</iconset>
+   </property>
+   <property name="text">
+    <string>logout</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="Resouces.qrc"/>
+ </resources>
+ <connections/>
+</ui>

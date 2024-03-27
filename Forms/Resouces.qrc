@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/Images">
+        <file>Images/magnifier.png</file>
+        <file>Images/plus-button.png</file>
+        <file>Images/home.png</file>
+        <file>Images/save.png</file>
+        <file>Images/steth.png</file>
+        <file>Images/logout.png</file>
+        <file>Images/office.png</file>
+        <file>Images/door-arrow.png</file>
+        <file>Images/magnifying-glass.png</file>
+        <file>Images/plus-symbol.png</file>
+    </qresource>
+</RCC>
